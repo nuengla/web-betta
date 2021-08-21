@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <title>Betta splendens</title>
+</head>
+
+<body>
+
+    <section class="header">
+
+        <nav>
+            <a href="index.html" id="head-icon">Betta</a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="closemenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">INTRO</a></li>
+                    <li><a href="#">CARE</a></li>
+                    <li><a href="#">BREEDING</a></li>
+                    <li><a href="#">DISEASES</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>มัจฉานักสู้ผู้ล้ำค่า</h1>
+           
+
+
+            </p>
+         
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    var header = document.querySelector("header")
+    function  showmenu(){
+        navLinks.style.right = "0";
+   
+       
+    }
+    function  closemenu(){
+        navLinks.style.right = "-200px";
+    
+    }
+
+
+</script>
+
+
+</body>
+
+</html>
